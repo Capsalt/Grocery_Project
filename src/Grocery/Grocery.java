@@ -1,5 +1,6 @@
 package Grocery;
 
+import java.time.Clock;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -84,6 +85,7 @@ public class Grocery {
             if (quantity<total) {
                 System.out.println("Paranız yetersiz ekleme yapın");
                 System.out.println("Ekleme yapacağınız miktar = " + (total - quantity) );
+                System.out.println("....................");
             }
         }while(quantity<=total);
 
